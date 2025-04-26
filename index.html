@@ -14,26 +14,30 @@
                 <img src="imagenes/logo.png" alt="" class="logo">
             </div>
             <ul>
-            <button type="button" class="boton-nav" onclick="window.location.href='catalogo.html'">Catálogo de Motos</button>   
-            <button type="button" class="boton-nav" onclick="window.location.href='perfil.html'">Mi Cuenta</button>
-            <button type="button" class="boton-nav" onclick="window.location.href='index.html'">Cerrar sesión</button>
+            <button type="button" class="boton-nav" onclick="window.location.href='valores.html'">Acerca de nosotros</button>
+            <li><button type="button" class="boton-nav">Iniciar sesión</button>
+                <ul>
+                    <li onclick="window.location.href='iniciarsesion.html'">Usuario</li>
+                    <li onclick="window.location.href='iniciarsesionadmin.html'">Administrador</li>
+                </ul>
+            </li> 
+            <button type="button" class="boton-nav" onclick="window.location.href='registro.html'">Registrarse</button>
             </ul>
         </nav>
     </header>
 
     <div id="banner">
-        <h1>Sesión iniciada con éxito</h1>
+        <h1>Explora, compara y acelera</h1>
     </div>
 
 
     <div id="introduccion" class="seccion-intro">
         <div class="contenedor-intro">
             <div class="texto-intro">
-                <h2>Bienvenido a Dagger Motos</h2>
-                <p>En Dagger, te ofrecemos el catálogo más completo de motocicletas
+                <h2>Bienvenido a MotoSport</h2>
+                <p>En MotoSport te ofrecemos el catálogo más completo de motocicletas
                     de diversas marcas, modelos y estilos. 
-                    Ya sea que busques comprar, vender o comparar motocicletas, aquí encontrarás 
-                    toda la información que necesitas para tomar la mejor decisión.
+                    Aquí encontrarás toda la información que necesitas para tomar la mejor decisión.
                 </p>
             </div>
             <div class="imagen-intro">
@@ -60,7 +64,7 @@
     </div>
 
     <div id="marcas">
-        <h2>NUESTRAS MARCAS</h2>
+        <h2>ALGUNAS DE NUESTRAS MARCAS</h2>
         <p class="subtitulo">Lorem ipsum dolor sit amet</p>
         <p class="descripcion">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -91,7 +95,7 @@
 
 
     <footer>
-        <p id="arroba">© 2025 Dagger Motos. Todos los derechos reservados.</p>
+        <p>© 2025 MotoSport. Todos los derechos reservados.</p>
         <ul>
             <li><a href="#">Aviso de privacidad</a></li>
             <li><a href="#">Términos y condiciones</a></li>
