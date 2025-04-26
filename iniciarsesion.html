@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="formulario-inicio">
+        <h1>Inicio de sesión</h1>
+        <form action="sesionusuario.html">
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="text" name="correo" id="correo" placeholder="Correo Electrónico..." required>
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña..." required>
+
+            <div class="botones">
+                <button type="submit">Iniciar Sesión</button>
+                <button type="button" onclick="window.location.href='inicio.html'">Volver al Inicio</button>
+            </div>
+            
+            <a href="registro.html">No tienes una cuenta? Registrarse aqui...</a>
+        </form>
+    </div>  
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Motocicletas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="registro-moto">
+        <h1>Registro de motocicleta</h1>
+        <form action="">
+            <label for="marca">Marca</label>
+            <input type="text" name="marca" id="marca" placeholder="Marca..." required>
+            <label for="modelo">Modelo</label>
+            <input type="text" name="marca" id="modelo" placeholder="Modelo..." required>
+            <label for="anio">Año</label>
+            <input type="text" name="anio" id="anio" placeholder="Año..." required>
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" id="precio" placeholder="Precio..." min="5000" required>
+            <label for="caballos">HP</label>
+            <input type="number" name="caballos" id="caballos" placeholder="Caballos de fuerza..." min="10" required>
+            <label for="transmision">Transmisión</label>
+            <select id="transmision" name="transmision" required>
+                <option value="1" selected>Manual</option>
+                <option value="2">Semiautomática</option>
+                <option value="3">Automática</option>
+            </select>
+            <label for="tipo">Tipo</label>
+            <select id="tipo" name="tipo" required>
+                <option value="1" selected>Deportiva</option>
+                <option value="2">Trabajo</option>
+                <option value="3">Doble Proposito</option>
+                <option value="4">Motoneta</option>
+                <option value="3">Cuatrimoto</option>
+            </select>
+            <label for="color">Color</label>
+            <input type="text" name="color" id="color" placeholder="Color..." required>
+            <label for="existencia">Existencia</label>
+            <input type="number" name="existencia" id="existencia" placeholder="Existencia..." min="0" required>
+
+            <div class="botones">
+                <button id="btnRegistrar">Registar</button>
+                <button type="button" onclick="window.location.href='sesionadmin.html'">Volver al Inicio</button>
+            </div>
+            
+        </form>
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="formulario-registro">
+        <h1>Registro de usuario</h1>
+        <form action="sesionusuario.html">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre..." required>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="Edad..." min="18" required>
+            <label for="correo">Correo Electrónico</label>
+            <input type="text" name="correo" id="correo" placeholder="Correo Electrónico..." required>
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña..." required>
+            <label for="confirmar">Confirmar Contraseña</label>
+            <input type="password" name="confirmar" id="confirmar" placeholder="Contraseña..." required>
+            <p><input type="checkbox" id="terminos_condiciones" required> Estoy de acuerdo con los <a href="#">términos y condiciones</a></p>
+
+            <div class="botones">
+                <button type="submit">Registrarse</button>
+                <button type="button" onclick="window.location.href='inicio.html'">Volver al Inicio</button>
+            </div>
+            
+            <a href="iniciarsesion.html">Ya tienes una cuenta? Inicia sesión aqui...</a>
+        </form>
+    </div> 
+    
+</body>
+</html>

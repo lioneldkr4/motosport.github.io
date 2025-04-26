@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoSport</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div>
+                <img src="imagenes/logo.png" alt="" class="logo">
+            </div>
+            <ul>
+            <button type="button" class="boton-nav" onclick="window.location.href='valores.html'">Acerca de nosotros</button>
+            <li><button type="button" class="boton-nav">Iniciar sesión</button>
+                <ul>
+                    <li onclick="window.location.href='iniciarsesion.html'">Usuario</li>
+                    <li onclick="window.location.href='iniciarsesionadmin.html'">Administrador</li>
+                </ul>
+            </li> 
+            <button type="button" class="boton-nav" onclick="window.location.href='registro.html'">Registrarse</button>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner">
+        <h1>Explora, compara y acelera</h1>
+    </div>
+
+
+    <div id="introduccion" class="seccion-intro">
+        <div class="contenedor-intro">
+            <div class="texto-intro">
+                <h2>Bienvenido a MotoSport</h2>
+                <p>En MotoSport te ofrecemos el catálogo más completo de motocicletas
+                    de diversas marcas, modelos y estilos. 
+                    Aquí encontrarás toda la información que necesitas para tomar la mejor decisión.
+                </p>
+            </div>
+            <div class="imagen-intro">
+                <img src="imagenes/introduccion.png" alt="Motocicletas Ola">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modelos">
+        <h2>Modelos Destacados</h2>
+        <div class="modelos-destacados">
+            <div class="destacados">
+                <img src="imagenes/cb.jpg" alt="Modelo CB">
+                <h3>Honda CB190R</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="destacados">
+                <img src="imagenes/ns.jpg" alt="Modelo NS">
+                <h3>Pulsar NS200</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="marcas">
+        <h2>ALGUNAS DE NUESTRAS MARCAS</h2>
+        <p class="subtitulo">Lorem ipsum dolor sit amet</p>
+        <p class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="imagenes/bajaj.png" alt="Bajaj">
+                <h3>Bajaj</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="tarjeta">
+                <img src="imagenes/honda.png" alt="Honda">
+                <h3>Honda</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="tarjeta">
+                <img src="imagenes/yamaha.png" alt="Yamaha">
+                <h3>Yamaha</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="tarjeta">
+                <img src="imagenes/italika.png" alt="Italika">
+                <h3>Italika</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>© 2025 MotoSport. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Aviso de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
